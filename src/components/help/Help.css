@@ -1,0 +1,47 @@
+.help{
+    background: linear-gradient(to right, #69e7f5, rgb(118, 239, 207));
+    min-height: 100vh;
+}
+h1{
+    padding-top: 70px;
+    color: #0056b3;
+}
+.search-div{
+    background-color: white;
+    width: 40rem;
+    display: flex;
+    align-items: center;
+}
+.form-control{
+    border: none;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+#search-section{
+    background: linear-gradient(
+        to right,
+        #c7f9f9,
+        #98f4f3
+      ); ;
+    height: 20rem;
+    position: relative;
+    margin-bottom: auto;
+}
+.help_subsec{
+    font-size: 20px;
+}
+#Getting_Started ul li{
+    margin-top: 10px;
+}
+#Sys_Req ul li{
+    margin-top: 10px;
+}
+#contact_support ul li{
+    margin-top: 10px;
+}
+#feedback_link{
+    text-decoration: none;
+    color: green;
+    font-weight: 600;
+}
